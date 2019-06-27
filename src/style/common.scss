@@ -1,0 +1,39 @@
+a {
+  color:$app-fc-main;
+}
+
+a:visited {
+}
+
+a:hover {
+  color: $app-color-theme;
+}
+
+a:active {
+}
+
+.app-base-card {
+  position: relative;
+  left: 0;
+  top: 0;
+  box-shadow: $app-bs-base;
+  border-radius: $app-br-small;
+  overflow: hidden;
+}
+
+.app-light-card {
+  position: relative;
+  left: 0;
+  top: 0;
+  box-shadow: $app-bs-light;
+  border-radius: $app-br-small;
+  overflow: hidden;
+}
+
+// 覆盖UI组件样式
+.el-carousel__button {
+  width: 8px !important;
+  height: 8px !important;
+  border-radius: 4px !important;
+  background-color: rgba(white,0.9) !important;
+}
